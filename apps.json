@@ -1,0 +1,34 @@
+[
+  {
+    "id": "v57/ollama",
+    "name": "Ollama Service",
+    "shortDescription": "Api for running ollama models",
+    "icon": { "symbol": { "name": "apple.intelligence" }, "text": { "name": "LLM" } },
+    "type": "api",
+    "setup": { "type": "bun", "repo": "v57/hub-ollama" }
+  },
+  {
+    "id": "v57/apns",
+    "name": "Apple Push Notifications",
+    "shortDescription": "Service for sending push notifications to Apple devices",
+    "icon": { "symbol": { "name": "app.badge.fill" }, "text": { "name": "APN" } },
+    "type": "api",
+    "setup": { "type": "bun", "repo": "v57/hub-apns" }
+  },
+  {
+    "id": "v57/apple",
+    "name": "Login with Apple",
+    "shortDescription": "Service for apple authorization",
+    "icon": { "symbol": { "name": "apple.logo" }, "text": { "name": "" } },
+    "type": "api",
+    "setup": { "type": "bun", "repo": "v57/hub-apple" }
+  },
+  {
+    "id": "v57/google",
+    "name": "Login with Google",
+    "shortDescription": "Service for google authorization",
+    "icon": { "text": { "name": "G" } },
+    "type": "api",
+    "setup": { "type": "bun", "repo": "v57/hub-google" }
+  }
+]
