@@ -55,5 +55,16 @@ const apps: App[] = [
       repo: 'v57/hub-google',
     },
   },
+  {
+    id: 'v57/s3',
+    name: 'S3 Storage',
+    shortDescription: 'Allows you to connect to your S3 storage',
+    type: 'app',
+    icon: { symbol: { name: 'server.rack' }, text: { name: 'S3' } },
+    setup: {
+      type: 'bun',
+      repo: 'v57/hub-s3',
+    },
+  },
 ]
 console.log(JSON.stringify(apps))
