@@ -38,5 +38,13 @@
     "type": "app",
     "icon": { "symbol": { "name": "server.rack" }, "text": { "name": "S3" } },
     "setup": { "type": "bun", "repo": "v57/hub-s3" }
+  },
+  {
+    "id": "v57/s3-local",
+    "name": "Local Storage",
+    "shortDescription": "Share your storage with the Hub network",
+    "type": "app",
+    "icon": { "symbol": "folder", "text": "S3" },
+    "setup": { "type": "bun", "repo": "v57/hub-s3-local" }
   }
 ]
