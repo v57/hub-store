@@ -34,9 +34,9 @@
   {
     "id": "v57/s3",
     "name": "S3 Storage",
-    "shortDescription": "Allows you to connect to your S3 storage",
+    "shortDescription": "Connect to S3 storage and share it with the Hub network",
     "type": "app",
-    "icon": { "symbol": { "name": "server.rack" }, "text": { "name": "S3" } },
+    "icon": { "symbol": "server.rack", "text": "S3" },
     "setup": { "type": "bun", "repo": "v57/hub-s3" }
   },
   {
