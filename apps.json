@@ -33,7 +33,7 @@
   },
   {
     "id": "v57/s3",
-    "name": "S3 Storage",
+    "name": "Remote Files",
     "shortDescription": "Connect to S3 storage and share it with the Hub network",
     "type": "app",
     "icon": { "symbol": "server.rack", "text": "S3" },
@@ -41,7 +41,7 @@
   },
   {
     "id": "v57/s3-local",
-    "name": "Local Storage",
+    "name": "Files",
     "shortDescription": "Share your storage with the Hub network",
     "type": "app",
     "icon": { "symbol": "folder", "text": "S3" },
